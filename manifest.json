@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "First Time Open",
+    "version": "0.1",
+    "description": "每天第一次打开浏览器时打开特定网页组",
+    "author": "mokevip",
+    "icons": {
+        "128": "/img/icon-128.png"
+    },
+    "action": {
+        "default_title": "Url Config",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "permissions":[
+        "storage"
+   ],
+    "homepage_url": "http://blog.mokevip.top",
+    "short_name": "First Open"
+}

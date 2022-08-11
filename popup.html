@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Open</title>
+    <style>
+        #textarea{
+            width: 400px;
+            height: 300px;
+            margin-top: 10px;
+            padding: 4px;
+            outline: none;
+        }
+        .btns{
+            text-align: right;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>您要在浏览器<strong>每天首次</strong>打开时加载的网页：</div>
+    <textarea id="textarea" placeholder="请输入需要打开的网页，多条记录请使用回车分隔。"></textarea>
+    <div class="btns">
+        <button id="save">保存</button>
+        <button id="open">打开</button>
+    </div>
+    <script src="./js/utils.js"></script>
+    <script src="./js/popup.js"></script>
+</body>
+
+</html>
